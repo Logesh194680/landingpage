@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor:pointer;
+    font-family: sans-serif;
+
+}
+body{
+   background-image: url("citybus.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+nav li{
+    display: inline-block;
+    margin: 5px 7px;
+    font-weight: 600;
+}
+.main{
+    width: 100%;
+    display: flex;
+    margin-top: 15%;
+    margin-left: 5%;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+button{
+    margin-top: 2%;
+    margin-left:5% ;
+    background-color: blueviolet;
+    font-family: sans-serif;
+    color: azure;
+
+}
+footer{
+    
+    margin-top: 5%;
+    background-color: antiquewhite;
+    
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin: 10px;
+    
+}
+.footernav{
+    margin: 30px 0;
+
+}
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footernav ul li{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+
+}
+.footerbottom{
+    text-align: center;
+}
